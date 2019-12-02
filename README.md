@@ -8,6 +8,7 @@ Using this tool you are able to read the raw data from captured TCP packets from
 
 ### Requeriments
 - Visual Studio 2019
+- Raw Data from a TCP capture from Wireshark or similar (Open a capture you have and follow the TCP Stream and export or copy and paste the Raw Data instead of ASCII).
 
 ### How to use
 For each packet the tool fixes/reads, the method Read will be ran and that's where the magic begins. There you can call the BufferReader variable from the method and read from the current packet that is being read.
